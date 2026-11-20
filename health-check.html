@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Health Check | Sathish Subramanian &amp; Associates</title>
+<meta name="description" content="A 2-minute business health check: cash stuck with customers, 43B(h) tax risk, GST input credit at risk, compliance and MIS. By Sathish Subramanian & Associates, Chartered Accountants, Coimbatore.">
+<link rel="canonical" href="https://casathish93-rgb.github.io/health-check.html">
+<meta name="theme-color" content="#0a1430">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Same look as the firm website: night-blue header, light working area, teal/blue accents. */
+:root{color-scheme:light;--bg:#f5f7fc;--surface:#fff;--tint:#eaf0fb;--ink:#0e1530;--muted:#55607d;--line:#dfe5f2;
+  --night:#0a1430;--night2:#13265a;--teal:#12b5a8;--teal-hi:#3ee6d2;--blue:#2f6bff;--gold:#e3b552;
+  --display:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;--body:"Inter","Segoe UI",system-ui,sans-serif}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);line-height:1.12;margin:0;text-wrap:balance}
+p{margin:0}a{color:inherit}
+header{background:var(--night);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.bar{max-width:880px;margin:0 auto;padding:0 18px;height:66px;display:flex;align-items:center;gap:14px}
+.brand{text-decoration:none}.brand b{display:block;font:800 1rem/1.15 var(--display)}.brand small{color:var(--gold);font-size:.74rem}
+.bar a.back{margin-left:auto;font-size:.9rem;opacity:.85;text-decoration:none}
+.progress{height:4px;background:rgba(255,255,255,.1)}.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal-hi),var(--blue));transition:width .35s}
+main{max-width:880px;margin:0 auto;padding:28px 18px 60px}
+.screen{display:none}.screen.on{display:block}
+.hero{background:radial-gradient(700px 360px at 85% 10%,var(--night2),var(--night) 65%);color:#eef3ff;border-radius:24px;padding:clamp(24px,5vw,44px)}
+.hero h1{font-size:clamp(1.9rem,5vw,2.8rem);font-weight:800;letter-spacing:-.02em}
+.hero p{color:#c6d2ea;margin-top:14px;max-width:58ch;font-size:1.05rem}
+.pill{display:inline-block;font-size:.85rem;font-weight:600;color:var(--teal-hi);border:1px solid rgba(62,230,210,.5);border-radius:999px;padding:6px 12px;margin-bottom:16px}
+.areas{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.areas span{font-size:.88rem;font-weight:600;padding:8px 12px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;border:0;cursor:pointer;font:600 1rem var(--body);text-decoration:none;background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;box-shadow:0 10px 24px -10px rgba(47,107,255,.7)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);box-shadow:none}
+.hero .btn{margin-top:26px}
+:focus-visible{outline:3px solid var(--teal-hi);outline-offset:3px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,4vw,34px);box-shadow:0 18px 40px -26px rgba(14,28,70,.35)}
+.qhead{display:flex;justify-content:space-between;gap:10px;font-size:.86rem;color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.tag{color:var(--teal);font-weight:600}
+.card h2{font-size:clamp(1.3rem,3.4vw,1.75rem);font-weight:800}
+.sub{color:var(--muted);margin-top:8px}
+.row{margin-top:18px}.row label{display:block;font-weight:600;font-size:.92rem;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:600 .9rem var(--body);padding:10px 14px;border-radius:999px;cursor:pointer;min-height:44px}
+.chip.sel{background:var(--ink);color:#fff;border-color:var(--ink)}
+.bignum{display:flex;align-items:center;gap:10px;margin-top:20px;border:1.5px solid var(--line);border-radius:16px;padding:8px 16px;background:var(--bg)}
+.bignum input{flex:1;border:0;background:transparent;font:800 2rem var(--display);color:var(--ink);width:100%;outline:none}
+.cur,.unit{font-weight:700;color:var(--muted)}
+.sliderwrap{margin-top:22px}.sval{font:800 2.2rem var(--display)}.sval small{font-size:1rem;color:var(--muted)}
+input[type=range]{width:100%;accent-color:var(--blue);height:32px}
+.ticks{display:flex;justify-content:space-between;font-size:.8rem;color:var(--muted)}
+.opts{display:grid;gap:10px;margin-top:20px}.opts.two{grid-template-columns:1fr 1fr}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;border:1.5px solid var(--line);background:var(--surface);border-radius:16px;padding:14px;cursor:pointer;font:inherit;color:inherit;min-height:56px}
+.opt.sel{border-color:var(--blue);background:#eef3ff}
+.opt .dot{flex:none;width:20px;height:20px;border-radius:50%;border:2px solid var(--line);margin-top:2px}
+.opt.sel .dot{border:6px solid var(--blue)}
+.opt b{display:block}.opt span span{font-size:.86rem;color:var(--muted)}
+.live{margin-top:14px;font-size:.92rem;color:var(--teal);font-weight:600;min-height:1.4em}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:26px}
+.err{color:#c43a3a;font-size:.9rem;margin-top:10px;min-height:1.2em}
+@media(max-width:560px){.opts.two{grid-template-columns:1fr}}
+/* report */
+.rtop{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center}
+.gauge{position:relative;width:170px;height:170px}.gauge svg{width:100%;height:100%;transform:rotate(-90deg)}
+.gauge .v{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+.gauge .v b{font:800 2.6rem/1 var(--display)}.gauge .v span{font-size:.85rem;color:var(--muted)}
+.grade{display:inline-block;font-weight:700;padding:6px 12px;border-radius:999px;color:#fff;margin-bottom:10px}
+.money{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
+.money div{background:var(--tint);border-radius:16px;padding:14px}.money b{display:block;font:800 1.35rem var(--display)}.money span{font-size:.84rem;color:var(--muted)}
+.secs{display:grid;gap:10px;margin-top:22px}
+.sec{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1.4fr) 48px;gap:12px;align-items:center;font-size:.92rem}
+.track{height:10px;border-radius:999px;background:var(--tint);overflow:hidden}.track i{display:block;height:100%;border-radius:999px}
+.sec em{font-style:normal;text-align:right;font-weight:600}
+.flags{display:grid;gap:12px;margin-top:22px}
+.flag{border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:14px;padding:16px;background:var(--surface)}
+.flag h3{font-size:1.05rem}.flag p{color:var(--muted);font-size:.93rem;margin-top:6px}
+.flag ul{margin:10px 0 0;padding-left:18px;font-size:.9rem;display:grid;gap:3px}
+.flag .svc{display:inline-block;margin-top:10px;font-size:.8rem;font-weight:600;color:#2350d6;background:#e8efff;border-radius:999px;padding:5px 10px}
+.send{margin-top:26px;background:radial-gradient(600px 300px at 90% 0,var(--night2),var(--night) 70%);color:#eef3ff;border-radius:22px;padding:24px}
+.send p{color:#c6d2ea;margin-top:6px}
+.send .r2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.send input{font:inherit;font-size:16px;width:100%;min-height:48px;border-radius:12px;border:1.5px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;padding:10px 12px}
+.send input::placeholder{color:#9fb0d6}
+.send .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.send .btn.ghost{color:#fff;border-color:rgba(255,255,255,.35)}
+.note{font-size:.8rem;color:var(--muted);margin-top:18px}
+@media(max-width:620px){.rtop{grid-template-columns:1fr;justify-items:center;text-align:center}.money{grid-template-columns:1fr}.send .r2{grid-template-columns:1fr}.sec{grid-template-columns:1fr 48px}.sec .track{grid-column:1/-1;grid-row:2}}
+footer{text-align:center;font-size:.82rem;color:var(--muted);padding:0 18px 40px}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar"><a class="brand" href="./"><b>Sathish Subramanian &amp; Associates</b><small>Chartered Accountants</small></a><a class="back" href="./">← Website</a></div>
+  <div class="progress"><i id="bar"></i></div>
+</header>
+<main>
+  <section class="screen on" id="s-welcome">
+    <div class="hero">
+      <span class="pill">2 minutes · instant report</span>
+      <h1>How healthy is your business?</h1>
+      <p>Answer 10 quick questions to see how much cash is stuck with customers, what tax is at risk under section 43B(h), and how much GST input credit could be reversed.</p>
+      <div class="areas"><span>Cash stuck with customers</span><span>43B(h) tax risk</span><span>GST input credit at risk</span><span>Compliance</span><span>MIS &amp; controls</span></div>
+      <button class="btn" id="start">Start the health check →</button>
+    </div>
+  </section>
+
+  <section class="screen" id="s-about">
+    <div class="card">
+      <div class="qhead"><span>About your business</span><span class="tag">Step 1</span></div>
+      <h2>Tell us a little about your business</h2>
+      <div class="row"><label>Industry</label><div class="chips" id="industry"></div></div>
+      <div class="row"><label>What you do</label><div class="chips" id="biztype"></div></div>
+      <div class="row"><label>Type of entity</label><div class="chips" id="entity"></div></div>
+      <div class="row"><label>Employees</label><div class="chips" id="emp"></div></div>
+      <div class="err" id="err-about"></div>
+      <div class="nav"><button class="btn ghost" data-go="welcome">← Back</button><button class="btn" id="aboutNext">Next →</button></div>
+    </div>
+  </section>
+
+  <section class="screen" id="s-q"><div class="card" id="qcard"></div></section>
+
+  <section class="screen" id="s-report"><div class="card" id="rcard"></div></section>
+</main>
+<footer>Sathish Subramanian &amp; Associates, Chartered Accountants · 27N, Sri Vee Castle, Dhanalakshmi Nagar, Narasimhanaickenpalayam, Coimbatore 641031 · +91 95666 06990<br>Estimates are indicative, based on your answers and standard assumptions. They are not professional advice for any specific case.</footer>
+
+<script>
+{
+const CFG={benchDays:45,gstRate:18,itcInterest:18,itcMonths:6,oppCost:7,purchaseRatio:0.6,mseUnsureShare:0.15,
+  taxRates:{"Company":25.17,"LLP / Firm":31.2,"Proprietorship":31.2,"Other":25.17},
+  whatsapp:"919566606990", email:"ca.sathish93@gmail.com"};
+const INDUSTRIES=["Manufacturing","Textiles & Apparel","Engineering / Pumps / Motors","Trading & Distribution","IT / SaaS / Startup","Professional Services","Construction & Real Estate","Healthcare","Food & Agri","Other"];
+const BIZTYPES=["Manufacturer","Service provider","Trader"];
+const ENTITIES=["Company","LLP / Firm","Proprietorship","Other"];
+const EMPS=["Below 10","10–19","20 or more"];
+const Q=[
+ {id:'turnover',sec:'Cash & working capital',type:'money',unit:'Crore',title:'What is your annual turnover?',sub:'Last financial year. A rough figure is fine.',chips:[1,5,10,25,50,100,250],def:10,min:0.05},
+ {id:'debtorDays',sec:'Cash & working capital',type:'slider',min:0,max:180,step:5,def:60,unit:'days',title:'On average, how many days do your customers take to pay you?',sub:'From invoice date to money in your bank.',ticks:[0,45,90,135,180]},
+ {id:'rate',sec:'Cash & working capital',type:'choice',two:true,title:'What interest rate do you pay on loans or overdraft?',sub:'Used to work out what stuck cash costs you each year.',opts:[
+   {v:0,l:'No borrowings',d:'We use a 7% opportunity cost'},{v:9,l:'Below 10%',d:'~9% p.a.'},{v:11,l:'10–12%',d:'~11% p.a.'},{v:13,l:'12–14%',d:'~13% p.a.'},{v:16,l:'14–18%',d:'~16% p.a.'},{v:20,l:'Above 18%',d:'Private / NBFC funding'}]},
+ {id:'msePurchase',sec:'43B(h) tax risk',type:'money',unit:'Crore',title:'Yearly purchases from micro & small (Udyam-registered) suppliers?',sub:"Goods or services bought from MSME manufacturers or service providers. Traders don't count.",chips:[0,0.5,1,2,5,10,25],def:1,min:0,unsure:true},
+ {id:'msePayDays',sec:'43B(h) tax risk',type:'slider',min:0,max:180,step:5,def:60,unit:'days',title:'How many days do you take to pay those suppliers?',sub:'Section 43B(h) allows a deduction only if you pay within 45 days (written agreement) or 15 days (no agreement).',ticks:[0,45,90,135,180],skipIf:a=>a.msePurchase===0},
+ {id:'unpaid180',sec:'GST & ITC',type:'money',unit:'Lakh',title:'Supplier bills (including GST) unpaid for more than 180 days?',sub:'Under Rule 37, input credit on bills unpaid after 180 days must be reversed, with 18% interest.',chips:[0,2,5,10,25,50,100],def:0,min:0},
+ {id:'recon',sec:'GST & ITC',type:'choice',title:'How often do you match your books with GSTR-2B?',sub:'Mismatches are the biggest source of lost input credit.',opts:[
+   {v:'monthly',l:'Every month, before filing GSTR-3B',d:'Full invoice-level match',s:7},{v:'quarterly',l:'Every quarter',d:'Or only for big suppliers',s:4},{v:'yearly',l:'Only at year-end / GSTR-9',d:'',s:2},{v:'never',l:'Not done / not sure',d:'',s:0}]},
+ {id:'compliance',sec:'Statutory compliance',type:'choice',title:'Are your GST, TDS, PF/ESI and ROC filings done on time?',sub:'Think about the last 12 months.',opts:[
+   {v:'always',l:'Always on time',d:'No late fees or notices',s:15},{v:'mostly',l:'Mostly, with 1–2 delays',d:'Small late fees paid',s:10},{v:'often',l:'Often late',d:'Regular late fees / interest',s:4},{v:'notsure',l:'Not sure',d:'Handled by someone else',s:6}]},
+ {id:'mis',sec:'MIS & decision-making',type:'choice',title:'What financial reports do you see every month?',sub:'MIS = management information: P&L, cash and dues at a glance.',opts:[
+   {v:'full',l:'Monthly MIS + cash-flow forecast',d:'Within 10 days of month-end',s:15},{v:'mis',l:'Monthly P&L, no cash forecast',d:'',s:9},{v:'year',l:'Only year-end accounts',d:'Audit / tax time',s:4},{v:'none',l:'Nothing regular',d:'We check the bank balance',s:1}]},
+ {id:'systems',sec:'Technology & controls',type:'choice',title:'How are your accounts and approvals run?',sub:'Pick the closest match.',opts:[
+   {v:'erp',l:'Tally/ERP, approvals, monthly bank reconciliation',d:'Clear roles and checks',s:10},{v:'tally',l:'Tally/ERP, but mostly manual',d:'Approvals on WhatsApp or verbal',s:6},{v:'excel',l:'Excel and paper',d:'',s:3},{v:'outsourced',l:'An accountant updates books periodically',d:'Owner does everything else',s:1}]}
+];
+let A={},P={},qi=0,hist=[],R=null;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function inr(n){n=Math.round(n||0);const a=Math.abs(n);const s=a>=1e7?(a/1e7).toFixed(2)+' Cr':a>=1e5?(a/1e5).toFixed(2)+' L':a.toLocaleString('en-IN');return(n<0?'-':'')+'₹'+s}
+const gradeOf=s=>s>=80?{g:'Healthy',c:'#1E9E5A'}:s>=60?{g:'Watch',c:'#C98F00'}:s>=40?{g:'At risk',c:'#E5671F'}:{g:'Critical',c:'#D33A3A'};
+const colorPct=p=>p>=80?'#1E9E5A':p>=60?'#E0A100':p>=40?'#E5671F':'#D33A3A';
+const setBar=p=>$('bar').style.width=p+'%';
+function go(n){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('on'));$('s-'+n).classList.add('on');window.scrollTo(0,0);
+  if(n==='welcome')setBar(0);if(n==='about')setBar(4);if(n==='report')setBar(100)}
+function reset(){A={};P={industry:null,biztype:null,entity:null,emp:null};qi=0;hist=[];R=null;Q.forEach(q=>A[q.id]=q.type==='choice'?null:q.def);
+  chips('industry',INDUSTRIES);chips('biztype',BIZTYPES);chips('entity',ENTITIES);chips('emp',EMPS)}
+function chips(key,list){$(key).innerHTML=list.map(x=>`<button class="chip${P[key]===x?' sel':''}" data-v="${esc(x)}">${esc(x)}</button>`).join('');
+  $(key).querySelectorAll('.chip').forEach(b=>b.onclick=()=>{P[key]=b.dataset.v;chips(key,list)})}
+const vis=()=>Q.filter(q=>!(q.skipIf&&q.skipIf(A)));
+const visIdx=i=>Q.slice(0,i+1).filter(q=>!(q.skipIf&&q.skipIf(A))).length;
+function nextIdx(i){for(let k=i+1;k<Q.length;k++)if(!(Q[k].skipIf&&Q[k].skipIf(A)))return k;return -1}
+const mseP=()=>A.msePurchase==='unsure'?(A.turnover||0)*1e7*CFG.mseUnsureShare:(A.msePurchase||0)*1e7;
+
+function showQ(){
+  const q=Q[qi];go('q');setBar(6+Math.round(88*qi/Q.length));
+  let h=`<div class="qhead"><span>Question ${visIdx(qi)} of ${vis().length}</span><span class="tag">${esc(q.sec)}</span></div><h2>${esc(q.title)}</h2><p class="sub">${esc(q.sub)}</p>`;
+  if(q.type==='money'){
+    const v=A[q.id]==='unsure'?'':A[q.id];
+    h+=`<div class="bignum"><span class="cur">₹</span><input id="qin" inputmode="decimal" aria-label="${esc(q.title)}" value="${esc(v)}" placeholder="${A[q.id]==='unsure'?'Not sure':'0'}"><span class="unit">${q.unit}</span></div><div class="chips">`+
+      q.chips.map(c=>`<button class="chip${A[q.id]===c?' sel':''}" data-c="${c}">₹${c} ${q.unit==='Crore'?'Cr':'L'}</button>`).join('')+
+      (q.unsure?`<button class="chip${A[q.id]==='unsure'?' sel':''}" data-c="unsure">Not sure</button>`:'')+`</div><div class="live" id="live"></div>`;
+  }else if(q.type==='slider'){
+    h+=`<div class="sliderwrap"><div class="sval" id="sval">${A[q.id]} <small>${q.unit}</small></div><input type="range" id="qin" aria-label="${esc(q.title)}" min="${q.min}" max="${q.max}" step="${q.step}" value="${A[q.id]}"><div class="ticks">${q.ticks.map(t=>`<span>${t}</span>`).join('')}</div></div><div class="live" id="live"></div>`;
+  }else{
+    h+=`<div class="opts${q.two?' two':''}">`+q.opts.map((o,i)=>`<button class="opt${A[q.id]===o.v?' sel':''}" data-i="${i}"><span class="dot"></span><span><b>${esc(o.l)}</b>${o.d?`<span>${esc(o.d)}</span>`:''}</span></button>`).join('')+`</div>`;
+  }
+  h+=`<div class="err" id="qerr"></div><div class="nav"><button class="btn ghost" id="qback">← Back</button><button class="btn" id="qnext">${nextIdx(qi)<0?'See my report →':'Next →'}</button></div>`;
+  $('qcard').innerHTML=h;
+  $('qback').onclick=back;$('qnext').onclick=next;
+  if(q.type==='money'){
+    const inp=$('qin');
+    const mark=()=>$('qcard').querySelectorAll('.chip').forEach(b=>b.classList.toggle('sel',String(A[q.id])===b.dataset.c));
+    inp.oninput=()=>{const v=parseFloat(inp.value.replace(/,/g,''));A[q.id]=isNaN(v)?null:v;mark();live()};
+    $('qcard').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{const c=b.dataset.c;A[q.id]=c==='unsure'?'unsure':parseFloat(c);inp.value=c==='unsure'?'':c;inp.placeholder=c==='unsure'?'Not sure':'0';mark();live()});
+  }else if(q.type==='slider'){
+    const inp=$('qin');inp.oninput=()=>{A[q.id]=+inp.value;$('sval').innerHTML=A[q.id]+' <small>'+q.unit+'</small>';live()};
+  }else{
+    $('qcard').querySelectorAll('.opt').forEach(b=>b.onclick=()=>{A[q.id]=q.opts[+b.dataset.i].v;showQ()});
+  }
+  live();
+}
+function live(){
+  const q=Q[qi],el=$('live');if(!el)return;let t='';
+  if(q.id==='debtorDays'){const x=(A.turnover||0)*1e7/365*Math.max(0,A.debtorDays-CFG.benchDays);t=x>0?`About ${inr(x)} is tied up beyond a ${CFG.benchDays}-day benchmark.`:'Within the 45-day benchmark.'}
+  if(q.id==='msePayDays'){t=A.msePayDays>45?'Beyond 45 days, the unpaid amount at 31 March is disallowed.':'Within the 45-day limit.'}
+  if(q.id==='unpaid180'&&A.unpaid180>0){const u=A.unpaid180*1e5;t=`ITC to reverse: about ${inr(u*CFG.gstRate/(100+CFG.gstRate))}.`}
+  el.textContent=t;
+}
+function next(){
+  const q=Q[qi],v=A[q.id];
+  if(v===null||v===undefined||(typeof v==='number'&&(isNaN(v)||v<(q.min||0)))){$('qerr').textContent=q.type==='choice'?'Please choose an option.':'Please enter a valid amount.';return}
+  if(q.id==='turnover'&&v>100000){$('qerr').textContent='That looks too high. Enter turnover in crore.';return}
+  hist.push(qi);const n=nextIdx(qi);if(n<0){report();return}qi=n;showQ();
+}
+function back(){if(hist.length){qi=hist.pop();showQ()}else go('about')}
+const optScore=id=>{const q=Q.find(x=>x.id===id);const o=q.opts.find(x=>x.v===A[id]);return o?o.s:0};
+const optLabel=id=>{const q=Q.find(x=>x.id===id);const o=q.opts.find(x=>x.v===A[id]);return o?o.l:''};
+
+function compute(){
+  const T=A.turnover*1e7,bench=CFG.benchDays,D=A.debtorDays,rate=(A.rate>0?A.rate:CFG.oppCost)/100;
+  const cashStuck=T/365*Math.max(0,D-bench),interestCost=cashStuck*rate;
+  const Pm=mseP(),Dp=Pm>0?A.msePayDays:0,dis43=Pm/365*Math.max(0,Dp-45);
+  const taxRate=(CFG.taxRates[P.entity]||25.17)/100,tax43=dis43*taxRate;
+  const g=CFG.gstRate,U=(A.unpaid180||0)*1e5,itcRev=U*g/(100+g),itcInt=itcRev*CFG.itcInterest/100*CFG.itcMonths/12;
+  const leakPct={monthly:.002,quarterly:.01,yearly:.02,never:.03}[A.recon];
+  const itcLeak=T*CFG.purchaseRatio*g/(100+g)*leakPct;
+  const cashLocked=cashStuck+itcRev,annualCost=interestCost+tax43+itcInt+itcLeak;
+  const pD=D<=30?20:D<=45?17:D<=60?13:D<=90?8:D<=120?4:1;
+  const icPct=T>0?interestCost/T*100:0;
+  const pI=cashStuck<=0?10:icPct<.25?8:icPct<.5?6:icPct<1?4:icPct<2?2:1;
+  const p43=Pm<=0?15:Dp<=45?15:Dp<=60?9:Dp<=90?5:2;
+  const uPct=T>0?U/T*100:0,pU=U<=0?8:uPct<.5?6:uPct<2?3:1;
+  const pR=optScore('recon'),pC=optScore('compliance'),pM=optScore('mis'),pT=optScore('systems');
+  const secs=[{n:'Cash & working capital',got:pD+pI,max:30},{n:'43B(h) tax risk',got:p43,max:15},{n:'GST & ITC',got:pU+pR,max:15},
+    {n:'Statutory compliance',got:pC,max:15},{n:'MIS & decision-making',got:pM,max:15},{n:'Technology & controls',got:pT,max:10}];
+  const score=secs.reduce((s,x)=>s+x.got,0);secs.forEach(x=>x.pct=Math.round(x.got/x.max*100));
+  const F=[],sev=(gap,m)=>gap+10*Math.min(1,T>0?m/(.01*T):0);
+  if(D>bench)F.push({s:sev(30-pD-pI,cashStuck+interestCost),t:inr(cashStuck)+' of cash locked with customers',
+    p:`Customers take ${D} days to pay against a ${bench}-day benchmark. Funding that gap costs about ${inr(interestCost)} a year. Every 10 days you cut frees about ${inr(T/365*10)}.`,
+    svc:'Receivables ageing & weekly cash forecast',a:['Review debtor ageing every week; follow up all dues over 60 days','Fix credit terms; show your Udyam number and the MSMED interest clause on invoices','For chronic late payers, consider an MSEFC claim']});
+  if(A.rate>=13)F.push({s:sev(6,interestCost*.3),t:`High borrowing cost (${A.rate}%+)`,
+    p:'Your interest rate is above what well-documented MSMEs usually pay. Bank-ready financials and MIS strengthen your case with lenders.',
+    svc:'Project report, CMA & credit analysis',a:['Credit health check of your borrowing profile','CMA data and bank-ready monthly MIS','Projections, DSCR and working-capital workings']});
+  if(Pm>0&&Dp>45)F.push({s:sev(15-p43,tax43),t:inr(dis43)+' of expenses at risk under 43B(h)',
+    p:`You pay micro and small suppliers in ${Dp} days; the law allows at most 45. Dues unpaid at 31 March are disallowed, meaning about ${inr(tax43)} extra tax at ${(taxRate*100).toFixed(2)}%.`+(A.msePurchase==='unsure'?' (Supplier purchases estimated.)':''),
+    svc:'43B(h) & MSME vendor compliance',a:['Tag every supplier by Udyam status (micro / small / medium)','Put written terms of 45 days or less in purchase orders','Monthly 43B(h) tracker and a March year-end payment review']});
+  if(U>0)F.push({s:sev(8-pU,itcRev+itcInt),t:inr(itcRev)+' of ITC to be reversed (Rule 37)',
+    p:`Bills unpaid beyond 180 days mean ITC must be reversed in GSTR-3B, with about ${inr(itcInt)} interest at 18%. You can re-claim it once you pay the supplier.`,
+    svc:'GST & ITC reconciliation',a:['List all bills older than 150 days and plan payments now','Reverse and track in GSTR-3B; re-claim after payment','150/170-day alerts in your accounting system']});
+  if(A.recon!=='monthly')F.push({s:sev(7-pR,itcLeak),t:'ITC leakage risk of about '+inr(itcLeak)+' a year',
+    p:'Without a monthly GSTR-2B match, credits from non-filing or wrong-GSTIN suppliers slip through and are lost or questioned in notices.',
+    svc:'GST & ITC reconciliation',a:['Monthly invoice-level match before filing GSTR-3B','Follow up non-filing suppliers directly','Exception report every month']});
+  if(A.compliance!=='always')F.push({s:sev(15-pC,0),t:'Gaps in statutory filing discipline',
+    p:'Late GST, TDS, PF/ESI or ROC filings bring late fees, interest and notices, and weaken your file with banks and investors.',
+    svc:'Statutory compliance',a:['A compliance calendar with one owner per return','A monthly compliance status report','Quarterly compliance review']});
+  if(A.mis!=='full')F.push({s:sev(15-pM,0),t:'Decisions made without timely MIS',
+    p:'Without monthly MIS and a cash-flow forecast, cash shortfalls, loss-making products and slow customers show up too late.',
+    svc:'Virtual CFO & monthly MIS',a:['Monthly close and MIS within 10 days','A weekly rolling cash-flow forecast','Product / customer profitability and budget vs actual']});
+  if(A.systems!=='erp')F.push({s:sev(10-pT,0),t:'Manual processes and weak controls',
+    p:'Manual entries and verbal approvals slow month-end, hide errors and raise fraud risk as you grow.',
+    svc:'Accounting controls review',a:['Map approval and bank-reconciliation steps','Set clear roles and monthly checks','Owner dashboard for key numbers']});
+  F.sort((a,b)=>b.s-a.s);
+  return {T,D,cashStuck,interestCost,dis43,tax43,itcRev,itcInt,itcLeak,cashLocked,annualCost,secs,score,grade:gradeOf(score),flags:F};
+}
+
+function report(){
+  R=compute();go('report');
+  const C=2*Math.PI*70,off=C*(1-R.score/100);
+  let h=`<div class="rtop"><div class="gauge"><svg viewBox="0 0 160 160"><circle cx="80" cy="80" r="70" fill="none" stroke="#eaf0fb" stroke-width="14"/><circle cx="80" cy="80" r="70" fill="none" stroke="${R.grade.c}" stroke-width="14" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${off}"/></svg><div class="v"><b>${R.score}</b><span>out of 100</span></div></div>
+  <div><span class="grade" style="background:${R.grade.c}">${R.grade.g}</span><h2>Your business health score</h2><p class="sub">${esc(P.industry)} · ${esc(P.biztype)} · ${esc(P.entity)} · turnover ₹${A.turnover} Cr</p></div></div>
+  <div class="money"><div><b>${inr(R.cashLocked)}</b><span>Cash locked (customers + ITC)</span></div><div><b>${inr(R.annualCost)}</b><span>Estimated annual cost</span></div><div><b>${inr(R.tax43)}</b><span>Extra tax risk under 43B(h)</span></div></div>
+  <h3 style="margin-top:26px">Score by area</h3><div class="secs">`+R.secs.map(s=>`<div class="sec"><span>${s.n}</span><div class="track"><i style="width:${s.pct}%;background:${colorPct(s.pct)}"></i></div><em>${s.got}/${s.max}</em></div>`).join('')+`</div>`;
+  if(R.flags.length){h+=`<h3 style="margin-top:26px">Top areas to act on</h3><div class="flags">`+R.flags.slice(0,4).map(f=>`<div class="flag"><h3>${esc(f.t)}</h3><p>${esc(f.p)}</p><ul>${f.a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><span class="svc">${esc(f.svc)}</span></div>`).join('')+`</div>`}
+  else h+=`<p class="sub" style="margin-top:20px">No major risks found from your answers. Keep reviewing monthly.</p>`;
+  h+=`<div class="send"><h3>Discuss this report with the CA</h3><p>Add your name and send the summary to CA S. Sathish Kumar on WhatsApp or by email.</p>
+  <div class="r2"><input id="c-name" placeholder="Your name" autocomplete="name"><input id="c-company" placeholder="Business name" autocomplete="organization"></div>
+  <div class="btns"><a class="btn" id="wa" href="#">Send on WhatsApp</a><a class="btn ghost" id="em" href="#">Send by email</a><button class="btn ghost" id="cp">Copy summary</button></div><div class="err" id="cerr" style="color:#ffb4b4"></div></div>
+  <div class="nav"><button class="btn ghost" id="redo">↺ Start again</button><a class="btn ghost" href="./#contact">Contact the firm</a></div>
+  <p class="note">Estimates use your answers with standard assumptions (45-day collection benchmark, 18% GST, 18% interest on reversed ITC for 6 months, 60% purchases-to-turnover). Your answers stay on this device unless you choose to send them.</p>`;
+  $('rcard').innerHTML=h;
+  const upd=()=>{const t=summary();$('wa').href='https://wa.me/'+CFG.whatsapp+'?text='+encodeURIComponent(t);$('em').href='mailto:'+CFG.email+'?subject='+encodeURIComponent('Business health check – '+($('c-company').value.trim()||$('c-name').value.trim()||'enquiry'))+'&body='+encodeURIComponent(t)};
+  ['c-name','c-company'].forEach(id=>$(id).oninput=upd);upd();
+  $('cp').onclick=async()=>{try{await navigator.clipboard.writeText(summary());$('cp').textContent='Copied'}catch(e){$('cerr').textContent='Copy not available here — use WhatsApp or email.'}setTimeout(()=>$('cp').textContent='Copy summary',2000)};
+  $('redo').onclick=()=>{reset();go('welcome')};
+}
+function summary(){
+  const n=$('c-name')?.value.trim(),c=$('c-company')?.value.trim();
+  return ['Business Health Check – Sathish Subramanian & Associates',n?'Name: '+n:'',c?'Business: '+c:'',
+   `Profile: ${P.industry}, ${P.biztype}, ${P.entity}, ${P.emp} employees, turnover ₹${A.turnover} Cr`,
+   `Score: ${R.score}/100 (${R.grade.g})`,
+   `Cash locked: ${inr(R.cashLocked)} | Annual cost: ${inr(R.annualCost)} | 43B(h) tax risk: ${inr(R.tax43)}`,
+   `Debtor days: ${A.debtorDays} | GSTR-2B match: ${optLabel('recon')} | Filings: ${optLabel('compliance')} | MIS: ${optLabel('mis')}`,
+   'Top areas: '+R.flags.slice(0,3).map(f=>f.t).join('; ')].filter(Boolean).join('\n');
+}
+document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go));
+$('start').onclick=()=>{go('about')};
+$('aboutNext').onclick=()=>{if(!P.industry||!P.biztype||!P.entity||!P.emp){$('err-about').textContent='Please pick one option in each row.';return}$('err-about').textContent='';qi=0;hist=[];showQ()};
+reset();
+}
+</script>
+</body>
+</html>
